@@ -7,7 +7,7 @@ const app = express();
 
 
 // Serve static files from the "public" directory
-app.use(express.static('static'));
+app.use(express.static('public'));
 
 // Serve index.html file
 app.get('/', (req, res) => {
